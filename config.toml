@@ -1,3 +1,8 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://r-amos.github.io/vrovl'
+languageCode = 'en-uk'
+title = 'vrovl'
+theme = 'm10c'
+
+[params]
+  author = 'Rob Amos'
+  description = 'Blogger, dream weaver, visionary plus developers'
