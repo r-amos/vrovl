@@ -1,8 +1,21 @@
 baseURL = 'https://r-amos.github.io/vrovl'
 languageCode = 'en-uk'
 title = 'vrovl'
-theme = 'm10c'
+theme = 'winston'
 
 [params]
-  author = 'Rob Amos'
-  description = 'Blogger, dream weaver, visionary plus developers'
+  showAuthorOnHomepage = true
+  showPostsOnHomepage = false
+  addFrame = true
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Posts'
+    url = '/posts'
+    weight = 1
