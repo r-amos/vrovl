@@ -6,7 +6,9 @@ theme = 'winston'
 [params]
   showAuthorOnHomepage = true
   showPostsOnHomepage = false
+  addDot = true
   addFrame = true
+  google_analytics_id="G-8W47TGNLL1"
 
 [menu]
   [[menu.main]]
